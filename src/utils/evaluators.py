@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd # type: ignore
 from darts import TimeSeries, concatenate # type: ignore
 from darts.metrics import smape # type: ignore
-from sklearn.model_selection import ParameterGrid # type: ignore
-from typing import Optional, Any, Tuple # type: ignore
+from typing import Optional, Tuple # type: ignore
 from ..utilities import DartsPipeline # type: ignore
 
 class TimeSeriesEvaluator:
